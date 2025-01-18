@@ -180,3 +180,18 @@ export function NavbarWithSearch() {
 }
 
 export default NavbarWithSearch;
+
+
+
+ <div className="container mx-auto flex items-center justify-between">
+        <div className="flex gap-2">
+          <img src="/image/mt-logo.svg" alt="logo" />
+          <Typography
+            as="a"
+            href="#"
+            color="blue-gray"
+            className="mr-4 text-xs font-bold cursor-pointer"
+          >
+            Material <br /> Tailwind
+          </Typography>
+        </div>
